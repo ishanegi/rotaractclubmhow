@@ -31,6 +31,15 @@ header{
 	padding: 5px 15px;
 	margin: 0 5px;
 }
+.side-section{
+		font-family: 'Lobster', cursive;	
+font-size: 16px;
+	  line-height: 1.6;
+}
+.foot{
+			font-family: 'Lobster', cursive;	
+
+}
 
 /* -------------------------------------------  footer section  ------------------------------------------- */
 .social a{

@@ -31,8 +31,21 @@ header{
 	padding: 5px 15px;
 	margin: 0 5px;
 }
+.ffont{
+	font-family: 'Lobster', cursive;	
+	font-size: 60px;
+
+}
 
 /* -------------------------------------------  Main Section  ------------------------------------------- */
+.main-section, .side-section{
+font-family: 'Lobster', cursive;	
+	font-size: 21px;
+	  line-height: 1.6;
+}
+
+
+
 .popup{
  transition: transform .2s; 
 }
@@ -40,6 +53,9 @@ header{
 .popup:hover {
   transform: scale(1.1); 
 		box-shadow: 10px 5px 5px -3px rgba(92,92,92,0.4), 0px 7px 10px rgba(92,92,92,0.6), -10px 5px 5px -3px rgba(92,92,92,0.4);   
+	font-family: 'Lobster', cursive;
+	font-size: 16px;
+	color: black;
 }
 /* -------------------------------------------  What we do Section  ------------------------------------------- */
 #para{

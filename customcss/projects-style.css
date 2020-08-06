@@ -33,16 +33,19 @@ header{
 }
 
 /*------------------------------------------- Main section -------------------------------------*/
+
+
 #our-project{
-    font-family: American Typewriter, serif;
+		font-family: 'Lobster', cursive;	
     text-shadow: var(--shadow) 2px 2px;
-    font-size: 80px;
+    font-size: 50px;
+	text-align: center;
 }
 
 #event-title{
-    font-family: Palatino, URW Palladio L, serif;
+		font-family: 'Lobster', cursive;	
     text-shadow: var(--shadow) 2px 2px;
-    font-size: 50px;
+    font-size: 36px;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -50,7 +53,7 @@ header{
 
 .project-report{
   padding-bottom: 60px!important;
-  font-family: Palatino, URW Palladio L, serif;
+		font-family: 'Lobster', cursive;	
 }
 
 .project-sub{
@@ -62,7 +65,7 @@ header{
     --border-size: 0.125rem;
     --duration: 250ms;
     --ease: cubic-bezier(0.215, 0.61, 0.355, 1);
-    --font-family: monospace;
+    --font-family: 'Lobster', cursive;	
     --color-primary: white;
     --color-secondary: #3b5998;
     --color-tertiary: dodgerblue;
@@ -93,7 +96,7 @@ header{
     color: black;
     background-color: var(--color-primary);
     font-size: 1.5rem;
-    font-family: var(--font-family);
+		font-family: 'Lobster', cursive;	
     text-shadow: var(--shadow) 2px 2px;
     transition: flex-grow var(--duration) var(--ease);
     border-radius: 50px!important;
@@ -122,6 +125,15 @@ header{
   
 .button-group button:active {
     transform: translateY(var(--border-size));
+}
+
+
+.our-project,.foot{
+	font-family: 'Lobster', cursive;	
+font-size: 16px;
+	  line-height: 1.6;
+	letter-spacing: .5px;
+	word-spacing: 2px;
 }
 
 /* -------------------------------------------  footer section  ------------------------------------------- */

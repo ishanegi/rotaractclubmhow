@@ -34,6 +34,7 @@ header{
 /*------------------------------------------- Main section -------------------------------------*/
 
 /*------------------------------------------- Bod section -------------------------------------*/
+
 .card{
 	margin: 15px 10px!important;
 }
@@ -45,12 +46,14 @@ header{
 
 .popup{
  transition: transform .2s; 
+	font-size: 16px;	
+
 }
 
 .popup:hover {
      transform: scale(1.1); 
 		box-shadow: 10px 5px 5px -3px rgba(92,92,92,0.4), 0px 7px 10px rgba(92,92,92,0.6), -10px 5px 5px -3px rgba(92,92,92,0.4);
-		
+	
 		}
 .flip-box{
 	position: relative;
@@ -85,6 +88,20 @@ header{
 backface-visibility: hidden;
 	transform: rotateY(180deg);
 }
+.site-main{
+	font-family: 'Lobster', cursive;	
+font-size: 21px;
+	  line-height: 1.6;
+	word-spacing: 2px;
+}
+.site-main h4{
+	font-size: 36px;
+}
+.foot{
+	font-family: 'Lobster', cursive;	
+}	
+
+
 
 
 
